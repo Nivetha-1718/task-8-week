@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+.plus{
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  background-color: dodgerblue;
+  border: solid 2px black;
+  padding-bottom: 50px;
+  margin-top: 50px;
+
+}
+.plus button{
+  border: solid 1px silver;
+  padding: 10px;
+}
+.plus p ,h1{
+  padding: 10px;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.quote{
+  border: solid 2px black;
+  text-align: center;
+  margin-top: 50px;
+  background-color: deeppink;
+  padding: 20px;
+  margin: 30px;
+  padding-bottom: 50px;
 }
+.quote h1,button,p{
+  padding: 10px;
+}
+
+.box{
+  background-color: rgb(230, 131, 74);
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  border: solid 2px black;
+}
+.box h1,p{
+  padding: 20px;
+}
+.box p{
+  padding-right: 80px;
+}
+
+
+.data{
+  border: solid 2px black;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  background-color: rgb(218, 98, 98);
+  padding: 20px;
+}
+.data p{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.enter{
+  padding-bottom: 50px;
+  background-color: blue;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: solid 2px black;
+  margin: 30px;
+  padding: 10px;
+}
+
+.enter h1{
+   padding: 10px;
+  
+}
+.enter input,button{
+  padding: 10px;
+  margin: 20px;
+}
+
+.entered {
+  background-color: palegreen;
+  width: 70%;
+  border: solid 2px green;
+  margin-left: 50px;
+  padding: 10px;
+
+}
+
+
+
